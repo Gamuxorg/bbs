@@ -1,0 +1,116 @@
+#main-inner-row {
+  background-color: rgba(255,255,255,0.7);
+  padding: 1rem 0;
+}
+.game-tags a {
+  margin-right: .5rem;
+}
+.game-content-head {
+  padding-bottom: .5rem;
+  border-bottom: solid 2px #007bff;
+}
+.game-content-div img {
+  display: none;
+}
+.game-content-div p {
+  margin-bottom: 0;
+}
+.game-download-div {
+  display: none;
+}
+.game-content-main {
+  border-bottom: solid 2px #007bff;
+}
+.game-download-div table {
+  margin-bottom: 0;
+}
+.game-download-div thead th {
+  border: none!important;
+}  
+/*评论*/
+.comment-avatar img {
+    height: 5rem;
+    border-radius: 50px;
+    border: solid 1px #fff;
+}
+.children .comment-avatar img {
+  height: 2.5rem;
+  border-radius: 50px;
+  border: solid 1px #fff;
+}
+.game-comments-div p,
+.game-comments-div ul {
+  margin-bottom: 0;
+}
+.comment-list {
+  border-bottom: dotted 1px black;
+}
+.comment-meta-data {
+  font-size: .8rem;
+  color: darkslateblue;
+}
+.children .comment-list {
+  word-wrap: break-word;
+}
+.children .comment-meta {
+  overflow: auto;
+}
+.labelcomment {
+  display: none;
+}
+#reply-title {
+  font-size: 1.2rem;
+}
+#submit {
+  width: 100%;
+  margin-top: .5rem;
+}
+/*highlight.js显示行号*/
+.hljs {
+	border: 0;
+	font-family: "Consulas", "Courier New", Courier, mono, serif;
+	font-size: .8rem;
+	background: #eee !important;
+	display: block;
+	padding: 1px;
+	margin: 0;
+	width: 100%;
+	font-weight: 400;
+	color: #333;
+	white-space: pre-wrap
+}
+.hljs ul {
+	list-style: decimal;
+	background-color: #fff;
+	margin: 0px 0px 0 2.5rem !important;
+	padding: 0px;
+}
+.hljs ul li {
+	list-style: decimal-leading-zero;
+	border-left: 1px solid #ddd !important;
+	background: #fff;
+	padding: .2rem!important;
+	margin: 0 !important;
+	line-height: .8rem;
+	word-break: break-all;
+	word-wrap: break-word;
+	border-bottom: 1px dotted #ddd;
+}
+.hljs ul li:nth-of-type(even) {
+	background-color: #fcfcfc;
+	color: inherit;
+}
+/*wangeditor*/
+.wangEditor-txt {
+  padding: 0 1rem!important;
+  height: 10rem!important;
+}
+.wangEditor-txt p {
+  margin: 0!important;
+  line-height: 1.2rem!important;
+}
+
+/*右侧*/
+.game-peizhi-title {
+  border-bottom: solid 1px #007bff;
+}

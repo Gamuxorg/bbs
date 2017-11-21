@@ -1,0 +1,61 @@
+/*
+Theme Name: Gamux-Shell
+Theme URI: https://www.linuxgame.cn
+Author: the Gamux team
+Author URI: https://www.linuxgame.cn
+Description: Linuxgame.cn使用的主题，以简洁为主旨，前端使用BootStrap3。
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: download, gamux, linuxgame
+Text Domain: gamux-shell
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+.clear {
+  clear: both;
+}
+/**
+ * 头部
+ */
+#header nav {
+  border-bottom: 1px solid #ddd;
+}
+#header .navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+#header .navbar-toggler {
+  border-color: #007bff;
+}
+#header .navbar-toggler span {
+  color: #007bff;
+}
+#header .top-login img {
+  width: 3rem;
+  height: 3rem;
+}
+#header .site-login-info div {
+  max-width: 3.5rem;
+  overflow: hidden;
+}
+
+/**
+ * 底部
+ */
+footer {
+  background-color: #222;
+  color: #9d9d9d;
+}
+.footer-ul li {
+  margin-right: 1rem;
+}
+.footer-info p {
+  margin-bottom: 0;
+}
+.fixed-bottom {position: fixed;bottom: 0;width:100%;}

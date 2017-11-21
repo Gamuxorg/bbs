@@ -1,0 +1,39 @@
+/*
+ * 首页样式表文件
+*/
+@media screen and (min-width: 576px) {
+  .gamux-1-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  .gamux-1-cat {
+    margin-bottom: -0.3rem;
+  }
+  .gamux-1-author {
+    margin-bottom: -0.1rem;
+  }
+  
+}
+@media screen and (max-width: 575px) {
+  .gamux-1-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+#main {
+
+}
+.gamux-1 .media-heading {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  overflow: hidden;
+}
+.gamux-1-info {
+  font-size: 0.8rem;
+}
+.gamux-1-info span {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
