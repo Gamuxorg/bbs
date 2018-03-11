@@ -6,13 +6,14 @@ GameName="gamename"
 midLink="/tmp/tmp.$GameName"
 configHomeDir="$HOME/.gamux/common/$GameName/"
 dires=(`cat ./local-data-dires`);
+files=(`cat ./local-data-files`);
  
 if [ ! -d "$configHomeDir" ];then
     mkdir -p "$configHomeDir"
 fi
 
 for i in "${dires[@]}";do
-    rm -rf "${midLink}.${i}"
+    rm -rf "${midLink}.$i"
     if [ ! -d "${configHomeDir}/$i" ];then
         mkdir -p "${configHomeDir}/$i"
     fi
@@ -29,21 +30,14 @@ for i in "${files[@]}";do
 done
  
 ##########################################################################################
-# Add Game Start File
-if [ "`uname -m`" != "x86_64" ]; then
-    BINDIR=Bin
-else
-    BINDIR=Bin/x64
-fi
+# 添加二进制文件，可能需要export LD_LIBRARY_PATH，根据实际情况修改
 
-export LD_LIBRARY_PATH="${BINDIR}:$LD_LIBRARY_PATH"
-
-"$HERE"/$BINDIR/Talos $@
+"$HERE"/xxxxx $@
  
 ###########################################################################################
  
 for i in "${dires[@]}";do
-    rm -rf "${midLink}.${i}"
+    rm -rf "${midLink}.$i"
 done
 for i in "${files[@]}";do
     rm -rf "${midLink}.$i"
