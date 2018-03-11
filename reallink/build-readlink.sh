@@ -11,7 +11,7 @@ for i in "${dires[@]}";do
     rm -rf "$HERE/$i"
     ln -s "/tmp/tmp.$GameName.$i" "$HERE/$i"
 done
-for i in "${files}";do
+for i in "${files[@]}";do
     rm -rf "$HERE/$i"
     ln -s "/tmp/tmp.$GameName.$i" "$HERE/$i"
 done
