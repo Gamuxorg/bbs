@@ -18,14 +18,14 @@
 
 ### 历任站长
 
-第一任：shouhuanxiaoji
+第一任：shouhuanxiaoji 2012.08-2012.11
 
-第二任：yexiaoxing
+第二任：yexiaoxing 2012.11-2014
 
-第三任：saro
+第三任：saro 2014-2016
 
-第四任：wangqiang
+第四任：wangqiang 2018-2019
 
-现任：licheng
+现任：licheng 2019-
 
 qq群：274328087
