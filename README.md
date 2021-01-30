@@ -16,4 +16,16 @@
 > Linux环境访问网站建议使用Firefox浏览器，不推荐在Windows或Mac环境访问网站，非Linux环境访问网站出现的BUG不予修复。
 移动端访问处于实验阶段。
 
+### 历任站长
+
+第一任：shouhuanxiaoji
+
+第二任：yexiaoxing
+
+第三任：saro
+
+第四任：wangqiang
+
+现任：licheng
+
 qq群：274328087
