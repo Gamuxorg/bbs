@@ -1,9 +1,0 @@
-{
-  "origins": ["http://127.0.0.1", "http://localhost", "https://www.linuxgame.cn", "https://www.gamux.org", "https://linuxgame.cn", "https://gamux.org"],
-  "originsRegex": [
-    "https://([A-z0-9]|-)*\\.linuxgame\\.cn",
-    "https://([A-z0-9]|-)*\\.gamux\\.org",
-    "http://127.0.0.1:[0-9]+",
-    "http://localhost:[0-9]+"
-  ]
-}
